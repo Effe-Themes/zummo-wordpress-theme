@@ -51,17 +51,17 @@
 						{
 							"fontFamily": "Poppins",
 							"fontStyle": "normal",
-							"fontWeight": "700",
+							"fontWeight": "500",
 							"src": [
-								"file:./assets/fonts/poppins/poppins-700-normal.woff2"
+								"file:./assets/fonts/poppins/poppins-500-normal.woff2"
 							]
 						},
 						{
 							"fontFamily": "Poppins",
 							"fontStyle": "normal",
-							"fontWeight": "400",
+							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/poppins/poppins-400-normal.woff2"
+								"file:./assets/fonts/poppins/poppins-700-normal.woff2"
 							]
 						}
 					],
@@ -119,7 +119,8 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--poppins)",
 					"fontStyle": "normal",
-					"fontWeight": "700"
+					"fontWeight": "700",
+					"lineHeight": "1.3"
 				}
 			},
 			"link": {
@@ -129,7 +130,8 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--poppins)"
+			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"lineHeight": "1.6"
 		}
 	},
 	"templateParts": [
