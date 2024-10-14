@@ -2,6 +2,7 @@
 /**
  * Title: footer
  * Slug: zummo/footer
+ * Categories: hidden
  * Inserter: no
  */
 ?>
@@ -10,7 +11,7 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"75%","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Building connections, driving success—one project at a time.', 'zummo');?></h2>
+<h2 class="wp-block-heading"><?php echo __('Building connections, driving success—one project at a time.', 'zummo');?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -18,24 +19,24 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Pages', 'zummo');?></h2>
+<h2 class="wp-block-heading"><?php echo __('Pages', 'zummo');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">About Us</a>', 'zummo');?></li>
+<li><?php echo __('About Us', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">Services</a>', 'zummo');?></li>
+<li><?php echo __('Services', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">Projects</a>', 'zummo');?></li>
+<li><?php echo __('Projects', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">Testimonials</a>', 'zummo');?></li>
+<li><?php echo __('Testimonials', 'zummo');?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
@@ -44,24 +45,20 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Legal', 'zummo');?></h2>
+<h2 class="wp-block-heading"><?php echo __('Legal', 'zummo');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">Privacy Policy</a>', 'zummo');?></li>
+<li><?php echo __('Privacy Policy', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">Conditions</a>', 'zummo');?></li>
+<li><?php echo __('Conditions', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">Terms</a>', 'zummo');?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php esc_html_e('<a href="#">Contact Us</a>', 'zummo');?></li>
+<li><?php echo __('Contact Us', 'zummo');?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
@@ -73,6 +70,6 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left"><?php esc_html_e('Proudly powered by WordPress | Designed by:&nbsp;<a href="https://effethemes.com/" target="_blank" rel="noreferrer noopener">Effe Themes</a>', 'zummo');?></p>
+<p class="has-text-align-left"><?php echo __('Proudly powered by WordPress | Designed by: <a href="https://effethemes.com/" target="_blank" rel="noreferrer noopener">Effe Themes</a>', 'zummo');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
