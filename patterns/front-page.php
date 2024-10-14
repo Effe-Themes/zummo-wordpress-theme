@@ -30,8 +30,8 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":""} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:buttons {"className":"hero-button","layout":{"type":"flex","justifyContent":"right"}} -->
-<div class="wp-block-buttons hero-button"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}}}} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" style="padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Let\'s Talk', 'zummo');?></a></div>
+<div class="wp-block-buttons hero-button"><!-- wp:button {"className":"is-style-button-outline-hover","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"border":{"width":"1px"}}} -->
+<div class="wp-block-button is-style-button-outline-hover"><a class="wp-block-button__link wp-element-button" style="border-width:1px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Let\'s Talk', 'zummo');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -118,8 +118,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}}}} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" style="padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Get a Free Quote', 'zummo');?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-outline-hover","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"border":{"width":"1px"}},"borderColor":"white"} -->
+<div class="wp-block-button is-style-button-outline-hover"><a class="wp-block-button__link has-border-color has-white-border-color wp-element-button" style="border-width:1px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Get a Free Quote', 'zummo');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
