@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/hero-bg.webp","id":96,"source":"file","title":"hero-bg"},"backgroundSize":"contain","backgroundRepeat":"no-repeat","backgroundPosition":"48% 0%"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/hero-bg.webp","id":1835,"source":"file","title":"hero-bg"},"backgroundSize":"contain","backgroundRepeat":"no-repeat","backgroundPosition":"48% 0%"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
@@ -31,7 +31,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":""} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:buttons {"className":"hero-button","layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons hero-button"><!-- wp:button {"className":"is-style-button-outline-hover","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"border":{"width":"1px"}}} -->
-<div class="wp-block-button is-style-button-outline-hover"><a class="wp-block-button__link wp-element-button" style="border-width:1px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Let\'s Talk', 'zummo');?></a></div>
+<div class="wp-block-button is-style-button-outline-hover"><a class="wp-block-button__link wp-element-button" href="#" style="border-width:1px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Let\'s Talk', 'zummo');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -42,8 +42,8 @@
 <div style="height:1rem" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/hero.webp" alt="<?php echo __('', 'zummo');?>" style="border-radius:100px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/hero.webp" alt="<?php echo __('', 'zummo');?>" style="border-radius:100px;aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image --></main>
 <!-- /wp:group -->
 
@@ -119,7 +119,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-outline-hover","style":{"spacing":{"padding":{"left":"var:preset|spacing|70","right":"var:preset|spacing|70"}},"border":{"width":"1px"}},"borderColor":"white"} -->
-<div class="wp-block-button is-style-button-outline-hover"><a class="wp-block-button__link has-border-color has-white-border-color wp-element-button" style="border-width:1px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Get a Free Quote', 'zummo');?></a></div>
+<div class="wp-block-button is-style-button-outline-hover"><a class="wp-block-button__link has-border-color has-white-border-color wp-element-button" href="#" style="border-width:1px;padding-right:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><?php echo __('Get a Free Quote', 'zummo');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

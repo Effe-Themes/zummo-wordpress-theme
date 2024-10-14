@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|60"}},"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/footer-bg.webp","id":145,"source":"file","title":"footer-bg"},"backgroundPosition":"50% 0"}},"layout":{"inherit":true,"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|60"}},"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/footer-bg.webp","id":1837,"source":"file","title":"footer-bg"},"backgroundPosition":"50% 0"}},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"75%","justifyContent":"left"}} -->
@@ -24,19 +24,19 @@
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php echo __('About Us', 'zummo');?></li>
+<li><?php echo __('<a href="#">About Us</a>', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php echo __('Services', 'zummo');?></li>
+<li><?php echo __('<a href="#">Services</a>', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php echo __('Projects', 'zummo');?></li>
+<li><?php echo __('<a href="#">Projects</a>', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php echo __('Testimonials', 'zummo');?></li>
+<li><?php echo __('<a href="#">Testimonials</a>', 'zummo');?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
@@ -50,15 +50,15 @@
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php echo __('Privacy Policy', 'zummo');?></li>
+<li><?php echo __('<a href="#">Privacy Policy</a>', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php echo __('Conditions', 'zummo');?></li>
+<li><?php echo __('<a href="#">Conditions</a>', 'zummo');?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php echo __('Contact Us', 'zummo');?></li>
+<li><?php echo __('<a href="#">Contact Us</a>', 'zummo');?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
@@ -70,6 +70,6 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left"><?php echo __('Proudly powered by WordPress | Designed by: <a href="https://effethemes.com/" target="_blank" rel="noreferrer noopener">Effe Themes</a>', 'zummo');?></p>
+<p class="has-text-align-left"><?php echo __('Proudly powered by WordPress | Designed by:&nbsp;<a href="https://effethemes.com/" target="_blank" rel="noreferrer noopener">Effe Themes</a>', 'zummo');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
