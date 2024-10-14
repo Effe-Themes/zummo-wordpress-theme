@@ -53,4 +53,4 @@ add_theme_support( 'editor-styles' );
 add_editor_style( 'style.css' );
 
 // Enqueue core
-// require_once get_template_directory() . '/inc/core/init.php';
+require_once get_template_directory() . '/inc/core/init.php';
