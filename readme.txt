@@ -13,6 +13,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 = 1.0.0 =
 * Initial release
 
+#### Fonts:
+
+Poppins
+Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
+Source: https://indiantypefoundry.com
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+#### Screenshots:
+
+License: Creative Commons Zero (CC0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/pt/photo/805871
 
 == Copyright ==
 
