@@ -1,0 +1,82 @@
+/*
+Theme Name: Zummo
+Theme URI: https://effethemes.com/themes/zummo-wordpress-theme/
+Author: Effe Themes
+Author URI: https://effethemes.com/
+Description: 
+Requires at least: 6.6
+Tested up to: 6.6
+Requires PHP: 5.7
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: zummo
+Tags: 
+*/
+
+/* ================= > General Styles < ================= */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--wp--preset--color--custom-background-primary);
+  color: var(--wp--preset--color--custom-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li > a {
+  text-decoration: none;
+}
+
+:where(.wp-site-blocks) > * {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+}
+
+/* ================= > Header < ================= */
+
+.wp-block-site-title > a {
+  text-decoration: none;
+}
+
+.wp-block-navigation__responsive-container-content {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: start !important;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  border: 0 !important;
+}
+
+.wp-block-navigation-submenu > li {
+  background: var(--wp--preset--color--custom-background-secondary) !important;
+  color: var(--wp--preset--color--custom-text-color);
+}

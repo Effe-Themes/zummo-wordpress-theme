@@ -1,0 +1,10 @@
+/* ================= > Button Hover < ================= */
+
+.wp-block-button.is-style-button-hover-opacity > a:hover {
+  opacity: 0.8 !important;
+}
+
+.wp-block-button.is-style-button-hover-white-fill > a:hover {
+  color: #333 !important;
+  background: #fff !important;
+}
