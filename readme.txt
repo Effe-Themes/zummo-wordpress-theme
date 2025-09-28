@@ -9,6 +9,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+= 1.1.1 = 
+* Load text domain correctly and remove translation calls from constants
+
 = 1.1.0 =
 * Removed popup
 
